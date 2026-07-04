@@ -27,6 +27,8 @@ Ver tipos en `src/api.ts`.
 
 ## Reglas
 
+- **Mobile first**: diseñar para 375px primero. Touch targets mínimo 44px (`min-height: 44px`).
+  `font-size` nunca < 14px. Usable con una sola mano en teléfono vertical.
 - Todo texto UI en español.
 - Sin dependencias de UI externas (no shadcn, no MUI, no Tailwind) — CSS inline con variables CSS.
 - Código en TypeScript, componentes funcionales con hooks.
